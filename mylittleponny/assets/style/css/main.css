@@ -1,0 +1,607 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(https://media.istockphoto.com/id/1198380802/vector/food-background-vegetables-seamless-pattern-healthy-eating-tomato-garlic-carrot-pepper.jpg?s=612x612&w=0&k=20&c=jHB3uTWZrakPyAgqSQfOApxSq_jIwHRx00LiOV2YHEk=);
+}
+
+nav {
+  background-color: #a1bc8b;
+}
+nav a {
+  display: block;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav_logo {
+  width: 220px;
+  height: 50px;
+}
+
+.nav_logo_image {
+  width: 100%;
+  height: 100%;
+}
+
+.nav_right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nav_right .singers {
+  margin-top: 4px;
+}
+.nav_right .meal {
+  margin-top: 4px;
+}
+
+.nav_right_ul {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav_right_ul li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav_login_register_buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.nav_login_register_buttons .login {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  transition: 0.5s;
+  background-color: white;
+}
+.nav_login_register_buttons .login:hover {
+  background-color: rgb(215, 209, 209);
+}
+.nav_login_register_buttons .register {
+  padding: 8px 15px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+.nav_login_register_buttons .register:hover {
+  background-color: rgb(68, 67, 67);
+}
+.nav_login_register_buttons .profile_button {
+  padding: 10px 15px;
+  background-color: rgb(43, 122, 23);
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.nav_login_register_buttons .profile_button:hover {
+  background-color: rgb(2, 70, 2);
+}
+.nav_login_register_buttons .profile_button a {
+  color: white;
+  border: none;
+}
+.nav_login_register_buttons .logout {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  transition: 0.5s;
+}
+.nav_login_register_buttons .logout:hover {
+  background-color: rgb(212, 8, 8);
+}
+
+main #cards .container .cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main #cards .container .cards .card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
+}
+main #cards .container .cards .card:hover img {
+  transform: scale(1.1);
+}
+main #cards .container .cards .card .card_image {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+main #cards .container .cards .card .card_image img {
+  transition: 0.5s;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+main #cards .container .cards .card .card_text {
+  padding: 20px;
+}
+main #cards .container .cards .card .card_text .card_title {
+  margin-top: 10px;
+}
+main #cards .container .cards .card .card_text .card_description {
+  margin-top: 10px;
+}
+main #cards .container .cards .card .card_buttons {
+  padding: 0px 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+main #cards .container .cards .card .card_buttons .detail {
+  padding: 10px 15px;
+  background-color: white;
+  color: #457EE1;
+  border-radius: 6px;
+  border: 1px solid #457EE1;
+  transition: 0.5s;
+}
+main #cards .container .cards .card .card_buttons .detail:hover {
+  background-color: #457EE1;
+  color: white;
+  border: 1px solid white;
+}
+main #cards .container .cards .card .card_buttons .delete {
+  padding: 5px 13px;
+  border: 1px solid red;
+  background-color: white;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+main #cards .container .cards .card .card_buttons .delete:hover {
+  background-color: red;
+  border: 1px solid white;
+}
+main #cards .container .cards .card .card_buttons .delete:hover i {
+  color: white;
+}
+main #cards .container .cards .card .card_buttons .delete i {
+  color: red;
+}
+main #cards .container .cards .card .card_buttons .favorite {
+  padding: 5px 13px;
+  border: 1px solid red;
+  background-color: white;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+main #cards .container .cards .card .card_buttons .favorite:hover {
+  background-color: red;
+  border: 1px solid white;
+}
+main #cards .container .cards .card .card_buttons .favorite:hover i {
+  color: white;
+}
+main #cards .container .cards .card .card_buttons .favorite i {
+  color: red;
+}
+
+.detailPage {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.detailCard {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
+  width: 600px;
+}
+.detailCard:hover img {
+  transform: scale(1.1);
+}
+.detailCard .card_buttons {
+  padding: 20px;
+}
+.detailCard .card_buttons .home {
+  color: #457EE1;
+  border: 1px solid #457EE1;
+  padding: 15px 25px;
+  border-radius: 6px;
+  background-color: white;
+  transition: 0.5s;
+}
+.detailCard .card_buttons .home:hover {
+  background-color: #457EE1;
+  color: white;
+  border: none;
+}
+.detailCard .card_text {
+  padding: 20px;
+}
+.detailCard .card_text .card_description {
+  margin-top: 10px;
+}
+.detailCard .card_text .card_title {
+  margin-top: 10px;
+}
+.detailCard .card_text .age {
+  margin-top: 10px;
+}
+.detailCard .card_text .genre {
+  margin-top: 10px;
+}
+.detailCard .card_image {
+  overflow: hidden;
+  max-height: 400px;
+}
+.detailCard .card_image img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.basket {
+  padding: 5px 13px;
+  border: 1px solid #457EE1;
+  background-color: white;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.basket:hover {
+  background-color: #457EE1;
+  border: 1px solid white;
+}
+.basket:hover i {
+  color: white;
+}
+.basket i {
+  color: #457EE1;
+}
+
+main #baskett {
+  padding: 50px 25px;
+}
+main #baskett .container {
+  display: grid;
+  justify-content: center;
+}
+main #baskett .container .total_price {
+  display: flex;
+  justify-content: end;
+  margin-right: 120px;
+  font-size: 30px;
+  margin-top: 20px;
+  align-items: center;
+}
+main #baskett .container .baskett {
+  width: 100%;
+}
+main #baskett .container .baskett .order_button {
+  background-color: white;
+  border-radius: 6px;
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  border: 2px solid rgb(151, 148, 135);
+  font-weight: 600;
+  background-color: goldenrod;
+}
+main #baskett .container .baskett .baskett_text {
+  margin-bottom: 20px;
+}
+main #baskett .container .baskett .baskett_box {
+  min-height: 300px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  transition: 0.7s;
+  background-color: white;
+  border-radius: 10px;
+}
+main #baskett .container .baskett .baskett_box .text {
+  display: flex;
+  justify-content: space-between;
+}
+main #baskett .container .baskett .baskett_box .text .remove_all {
+  color: red;
+  border: none;
+  background-color: white;
+}
+main #baskett .container .baskett .baskett_box .baskett_count {
+  display: flex;
+}
+main #baskett .container .baskett .baskett_box .basket_increase {
+  padding: 5px 17px;
+  border-radius: 6px;
+  background-color: red;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+main #baskett .container .baskett .baskett_box .baseket_decrease {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px 15px;
+  background-color: green;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  border: none;
+}
+main #baskett .container .baskett .baskett_box:hover {
+  box-shadow: rgba(33, 163, 180, 0.56) 0px 22px 70px 4px;
+}
+main #baskett .container .baskett .baskett_box .baskett_item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+main #baskett .container .baskett .baskett_box .baskett_item .baskett_delete_from_fav i {
+  padding: 8px 15px;
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+  border-radius: 6px;
+}
+main #baskett .container .baskett .baskett_box .baskett_item .baskett_image {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid rgb(236, 236, 236);
+}
+main #baskett .container .baskett .baskett_box .baskett_item .baskett_image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+main #register .container .register {
+  margin-top: 50px;
+}
+main #register .container .register .register_text {
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+main #register .container .register form {
+  display: grid;
+  justify-content: center;
+}
+main #register .container .register form .register_submit {
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 6px;
+  background-color: rgb(13, 173, 120);
+  border: none;
+  color: white;
+}
+main #register .container .register form input {
+  border: none;
+  outline: none;
+  padding: 10px 50px;
+  width: 400px;
+  border: 2px solid rgb(224, 219, 219);
+  border-radius: 6px;
+}
+@media (max-width: 500px) {
+  main #register .container .register form input {
+    width: 300px;
+  }
+}
+
+main #profile {
+  padding: 50px 20px;
+}
+main #profile .container {
+  height: 90vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: relative;
+  border-radius: 20px;
+  padding: 50px;
+  background: rgb(96, 182, 208);
+  background: radial-gradient(circle, rgba(96, 182, 208, 0.4444371499) 16%, rgba(107, 161, 224, 0.357602416) 79%);
+}
+main #profile .container .profile .about_profile {
+  display: flex;
+}
+@media screen and (max-width: 700px) {
+  main #profile .container .profile .about_profile {
+    justify-content: center;
+  }
+}
+main #profile .container .profile .about_profile .favorite_singers {
+  padding-top: 20px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  border: 2px dashed rgb(70, 70, 161);
+  width: 50%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 700px) {
+  main #profile .container .profile .about_profile .favorite_singers {
+    display: none;
+  }
+}
+main #profile .container .profile .about_profile .favorite_singers .singers {
+  text-align: center;
+  margin-top: 170px;
+  color: red;
+}
+main #profile .container .profile .profile_text .edit_button {
+  background-color: rgb(77, 71, 71);
+  color: white;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+main #profile .container .profile .profile_text .profile_email {
+  margin-top: 20px;
+}
+main #profile .container .profile .profile_basket_info {
+  margin-top: 100px;
+  border-radius: 20px;
+  width: 100%;
+  color: green;
+  padding: 30px;
+  background-color: white;
+  border: 2px dashed rgb(4, 87, 4);
+  background-image: url(./../../../../assets/image/pexels-photo-616401.jpeg);
+  background-position: center center;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+main #profile .container .profile .profile_basket_info h1 {
+  color: black;
+}
+@media screen and (max-width: 305px) {
+  main #profile .container .profile .profile_basket_info h1 {
+    font-size: 10px;
+  }
+}
+main #profile .container .profile .profile_basket_info .products {
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+main #profile .container .profile .profile_basket_info .products .product {
+  color: black;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  gap: 10px;
+}
+@media screen and (max-width: 540px) {
+  main #profile .container .profile .profile_basket_info .products .product {
+    display: grid;
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 305px) {
+  main #profile .container .profile .profile_basket_info .products .product {
+    display: grid;
+    margin-bottom: 30px;
+    font-size: 10px;
+  }
+}
+main #profile .container .profile .about_profile .profile_text {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 270px;
+  text-align: center;
+}
+main #profile .container .profile .about_profile .profile_image {
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px dashed rgb(15, 12, 12);
+}
+main #profile .container .profile .about_profile .profile_image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.detail_heart {
+  padding: 8px 15px;
+  background-color: white;
+  color: red;
+  border-radius: 6px;
+  border: 1px solid red;
+}
+
+.detail_trash {
+  padding: 8px 15px;
+  background-color: white;
+  color: red;
+  border-radius: 6px;
+  border: 1px solid red;
+}
+
+.detail {
+  border: none;
+}
+
+header {
+  padding: 50px 20px;
+}
+header .container {
+  text-align: center;
+}
+header .container .header form input {
+  width: 60%;
+  height: 40px;
+  padding-left: 20px;
+  outline: none;
+  border: 2px solid whitesmoke;
+  border-radius: 6px;
+}
+header .container .header form ::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+header .container .header button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  border: none;
+  background-color: #FAC94B;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+}
+header .container .header button:hover {
+  background-color: #f6be31;
+}
+
+a {
+  color: black;
+}/*# sourceMappingURL=main.css.map */

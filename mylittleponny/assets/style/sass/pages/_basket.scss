@@ -1,0 +1,126 @@
+main{
+    #baskett{
+                padding: 50px 25px;
+    
+    .container{
+        
+       display: grid;
+       justify-content: center;
+        .total_price{
+           display: flex;
+           justify-content: end;
+           margin-right: 120px;
+           font-size: 30px;
+           margin-top: 20px;
+           align-items: center;
+           
+        }
+      .baskett{
+        width: 100%;
+
+        .order_button{
+            background-color: white;
+         border-radius: 6px;
+         padding: 10px;
+         margin-left: 10px;
+         font-size: 20px;
+            border: 2px solid rgb(151, 148, 135);
+            font-weight: 600;
+            background-color: goldenrod;
+            
+        }
+        // display: flex;
+        // flex-wrap: wrap;
+        // justify-content: center;
+        .baskett_text{
+            margin-bottom: 20px;
+        }
+        .baskett_box{
+            min-height: 300px;
+            .text{
+                display: flex;
+                justify-content: space-between;
+                .remove_all{
+                    color: red;
+                    border: none;
+                    background-color: white;
+                }
+            }
+          .baskett_count{
+            display: flex;
+          }
+            .basket_increase{
+                padding: 5px 17px;
+                border-radius: 6px;
+                background-color: red;
+                color: white;
+                font-size: 25px;
+                font-weight: 700;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+            }
+            .baseket_decrease{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 6px;
+                padding: 5px 15px;
+                background-color: green;
+                color: white;
+                font-size: 25px;
+                font-weight: 700;
+                border: none;
+
+
+            }
+            
+     
+            padding: 20px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            width: 100%;
+            transition: 0.7s;
+          &:hover{
+            box-shadow: rgba(33, 163, 180, 0.56) 0px 22px 70px 4px;
+            
+          }
+            background-color: white;
+            border-radius: 10px;
+            .baskett_item{
+           
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 20px;
+                align-items: center;
+                gap: 10px;
+                display: flex;
+                justify-content: space-between;
+                .baskett_delete_from_fav{
+                    i{
+                        padding: 8px 15px;
+                        background-color: white;
+                        color: red;
+                        border: 1px solid red;
+                        border-radius: 6px;
+                    }
+                }
+                .baskett_image{
+                    height: 100px;
+                    width: 100px;
+                    overflow: hidden;
+                    border-radius: 50%;
+                    border: 5px solid rgb(236, 236, 236);
+                    img{ object-fit: cover;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+       
+        
+    }
+}
+}}
+

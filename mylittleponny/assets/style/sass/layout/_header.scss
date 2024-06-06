@@ -1,0 +1,40 @@
+header{
+    padding:50px 20px;
+    .container{
+        text-align: center;
+        .header{
+            form{
+                input{
+                    width: 60%;
+                    height: 40px;
+                    padding-left: 20px;
+                    outline: none;
+                    border: 2px solid whitesmoke;
+                    border-radius: 6px;
+
+                  
+                }
+                ::placeholder{
+        font-family: 'Montserrat', sans-serif;
+                        font-size: 15px;
+                }
+            }
+            button{
+                padding: 10px 20px;
+                margin-top: 15px;
+                border: none;
+                background-color: #FAC94B;
+                border-radius: 6px;
+                font-size: 16px;
+                font-weight: 500;
+                &:hover{
+                    background-color: #f6be31;
+                }
+            }
+        }
+    }
+}
+a{
+    color: black;
+    
+}

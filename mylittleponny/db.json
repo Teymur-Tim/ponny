@@ -1,0 +1,306 @@
+{
+  "meals": [
+    {
+      "id": "1",
+      "name": "Spaghetti Carbonara",
+      "price": 12.99,
+      "ingredients": [
+        "spaghetti",
+        "eggs",
+        "pancetta",
+        "parmesan cheese",
+        "black pepper"
+      ],
+      "imageLink": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001491_11-2e0fa5c.jpg?quality=90&webp=true&resize=440,400"
+    },
+    {
+      "id": "2",
+      "name": "Chicken Alfredo",
+      "price": 14.99,
+      "ingredients": [
+        "chicken breast",
+        "fettuccine pasta",
+        "heavy cream",
+        "butter",
+        "parmesan cheese"
+      ],
+      "imageLink": "https://www.allthingsmamma.com/wp-content/uploads/2023/01/crockpot-chicken-alfredo-hero-8-scaled.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Vegetable Stir-Fry",
+      "price": 10.49,
+      "ingredients": [
+        "broccoli",
+        "carrots",
+        "bell peppers",
+        "tofu",
+        "soy sauce",
+        "ginger"
+      ],
+      "imageLink": "https://yellowchilis.com/wp-content/uploads/2022/08/vegetable-stir-fry-recipe.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Grilled Salmon",
+      "price": 16.99,
+      "ingredients": [
+        "salmon fillet",
+        "lemon",
+        "olive oil",
+        "dill",
+        "garlic"
+      ],
+      "imageLink": "https://www.simplyrecipes.com/thmb/qVWhL6kRxTSXyNtOytWExIVzeco=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2013__06__grilled-salmon-dill-butter-vertical-640-09eac8e5b35447c99e15943ca6c70911.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Yumurta Pamidor",
+      "price": 12.99,
+      "ingredients": [
+        "spaghetti",
+        "eggs",
+        "pancetta",
+        "parmesan cheese",
+        "black pepper"
+      ],
+      "imageLink": "https://mado.az/pics/580/580/product/59/pomidor-yumurta_1577030806.jpg"
+    }
+  ],
+  "users": [
+    {
+      "username": "Eldar",
+      "email": "Eldar@mail.ru",
+      "password": "SLAM123",
+      "balance": 10511.580000000016,
+      "id": "2",
+      "orders": [
+        [
+          [
+            {
+              "total_price": 12.99,
+              "order_date": "2023-11-04T21:50:49.594Z",
+              "id": "773c1iefd2bh"
+            },
+            {
+              "total_price": 23.48,
+              "order_date": "2023-11-04T21:51:46.052Z",
+              "id": "06o5plmkjd8ah"
+            },
+            {
+              "total_price": 46.46,
+              "order_date": "2023-11-05T08:40:37.930Z",
+              "id": "j3s49564j4"
+            },
+            {
+              "total_price": 14.99,
+              "order_date": "2023-11-05T09:30:47.374Z",
+              "id": "lihfhnheq06"
+            },
+            {
+              "total_price": 14.99,
+              "order_date": "2023-11-05T09:31:03.861Z",
+              "id": "qg816mt12q5"
+            },
+            {
+              "total_price": 14.99,
+              "order_date": "2023-11-05T09:31:51.257Z",
+              "id": "3hj5jr9r6ib6"
+            },
+            {
+              "total_price": 25.48,
+              "order_date": "2023-11-05T09:42:39.660Z",
+              "id": "hd7fchsj4o4"
+            },
+            {
+              "total_price": 141.9,
+              "order_date": "2023-11-05T10:46:30.816Z",
+              "id": "iipj905q97p"
+            }
+          ],
+          {
+            "total_price": 25.48,
+            "order_date": "2023-11-05T19:56:21.240Z",
+            "id": "c74lp14hr08"
+          }
+        ],
+        {
+          "total_price": 25.48,
+          "order_date": "2023-11-05T19:56:55.457Z",
+          "id": "7ae6o6is3g6m"
+        }
+      ]
+    },
+    {
+      "username": "234234234",
+      "email": "23423423@w32423",
+      "password": "dasdadasd",
+      "balance": "23423",
+      "id": "3"
+    },
+    {
+      "username": "Unde laborum Anim m",
+      "email": "majaveby@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "balance": "50",
+      "id": "4"
+    },
+    {
+      "username": "Sint provident ut ",
+      "email": "vybato@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "balance": "29",
+      "id": "5"
+    },
+    {
+      "username": "Eldasd",
+      "email": "hvjhv2hv@jhbbk",
+      "password": "A122",
+      "balance": "12",
+      "id": "6"
+    },
+    {
+      "username": "qurban",
+      "email": "qurban@mail.com",
+      "password": "Qurban-",
+      "balance": 999999805.64,
+      "id": "7",
+      "orders": [
+        {
+          "totalprice": 194.35999999999999,
+          "id": 1,
+          "sda": "sdasd"
+        }
+      ]
+    },
+    {
+      "username": "2222",
+      "email": "xilafaso@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "balance": "25",
+      "id": "8"
+    },
+    {
+      "username": "Nicat",
+      "email": "nicat.neon@bk.ru",
+      "password": "Admin123",
+      "balance": 90000,
+      "id": "9",
+      "orders": [
+        {
+          "total_price": 14.99,
+          "order_date": "2023-11-05T19:55:32.600Z",
+          "id": "4asjhlhpkbjk"
+        }
+      ]
+    },
+    {
+      "username": "Murad",
+      "email": "Murd@daas",
+      "password": "Murad123",
+      "balance": "12321312",
+      "id": "10"
+    },
+    {
+      "id": "8631",
+      "username": "tima",
+      "email": "tim@bk.ru",
+      "password": "TIma",
+      "balance": 2323165.1899999995,
+      "orders": [
+        [
+          [
+            [
+              [
+                [
+                  [
+                    [
+                      null,
+                      {
+                        "total_price": 44.97,
+                        "order_date": "2024-06-06T13:29:51.410Z",
+                        "id": "h640ssb2336"
+                      }
+                    ],
+                    {
+                      "total_price": 50.96,
+                      "order_date": "2024-06-06T13:31:24.070Z",
+                      "id": "fa9sa61r7g5"
+                    }
+                  ],
+                  {
+                    "total_price": 29.98,
+                    "order_date": "2024-06-06T13:31:45.682Z",
+                    "id": "pt4l0a1o60p"
+                  }
+                ],
+                {
+                  "total_price": 29.98,
+                  "order_date": "2024-06-06T13:32:09.582Z",
+                  "id": "lq7qofhotf3"
+                }
+              ],
+              {
+                "total_price": 10.49,
+                "order_date": "2024-06-06T13:33:12.798Z",
+                "id": "3gh3t84a1nib"
+              }
+            ],
+            {
+              "total_price": 14.99,
+              "order_date": "2024-06-06T13:39:06.027Z",
+              "id": "f9g2fm48g44"
+            }
+          ],
+          {
+            "total_price": 25.48,
+            "order_date": "2024-06-06T13:46:38.737Z",
+            "id": "gje7sdj522k"
+          }
+        ],
+        {
+          "total_price": 50.96,
+          "order_date": "2024-06-06T13:48:44.970Z",
+          "id": "7q0g3metetl"
+        }
+      ]
+    },
+    {
+      "id": "1e9d",
+      "username": "nicat",
+      "email": "N@bk.ru",
+      "password": "Nicat",
+      "balance": 23456709.56,
+      "orders": [
+        [
+          null,
+          {
+            "total_price": 55.96,
+            "order_date": "2024-06-06T13:50:43.334Z",
+            "id": "mrjcantl5n9"
+          }
+        ],
+        {
+          "total_price": 23.48,
+          "order_date": "2024-06-06T13:56:16.047Z",
+          "id": "mb4g24h2m3h"
+        }
+      ]
+    },
+    {
+      "id": "653b",
+      "username": "summ",
+      "email": "sum@gmial.com",
+      "password": "Summ",
+      "balance": 151380.09,
+      "orders": [
+        null,
+        {
+          "total_price": 134.91,
+          "order_date": "2024-06-06T14:12:09.188Z",
+          "id": "obg64mk1tph"
+        }
+      ]
+    }
+  ]
+}

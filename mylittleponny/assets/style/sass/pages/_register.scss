@@ -1,0 +1,45 @@
+main{
+    #register{
+        
+        .container{
+         
+            .register{
+                margin-top: 50px;
+           .register_text{
+            font-weight: 700;
+            font-size: 25px;
+            text-align: center;
+            margin-bottom: 20px;
+           }
+           
+                form{
+
+                    display: grid;
+                    justify-content: center;
+                    .register_submit{
+                margin: 0 auto;
+                  margin-top: 10px;
+                        
+                      
+                        border-radius: 6px;
+                        background-color: rgb(13, 173, 120);
+                        border: none;
+                        color: white;
+                    }
+                  input{
+                    border:none;
+                    outline: none;
+                    padding: 10px 50px;
+                    width: 400px;
+                    border: 2px solid rgb(224, 219, 219);
+                    border-radius: 6px;
+                    @media (max-width:500px) {
+                        width: 300px;
+                    }
+
+                  }
+                }
+            }
+        }
+    }
+}

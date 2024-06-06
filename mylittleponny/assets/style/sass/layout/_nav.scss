@@ -1,0 +1,125 @@
+nav {
+    a {
+        display: block;
+    }
+
+    background-color: #a1bc8b;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav_logo {
+    width: 220px;
+    height: 50px;
+}
+
+.nav_logo_image {
+    width: 100%;
+    height: 100%;
+}
+
+.nav_right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .singers {
+        margin-top: 4px;
+    }
+
+    .meal {
+        margin-top: 4px;
+    }
+
+
+}
+
+.nav_right_ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+
+    align-items: center;
+
+    li {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+
+
+    }
+}
+
+.nav_login_register_buttons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+    gap: 10px;
+
+    .login {
+        font-family: 'Montserrat', sans-serif;
+        padding: 10px 12px;
+        border-radius: 6px;
+        border: none;
+        font-weight: 500;
+        transition: 0.5s;
+        background-color: white;
+
+        &:hover {
+            background-color: rgb(215, 209, 209);
+        }
+    }
+
+    .register {
+        padding: 8px 15px;
+        font-family: 'Montserrat', sans-serif;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        background-color: black;
+        transition: 0.5s;
+
+        &:hover {
+            background-color: rgb(68, 67, 67);
+        }
+    }
+
+    .profile_button {
+        padding: 10px 15px;
+        background-color: rgb(43, 122, 23);
+        border-radius: 10px;
+        font-weight: 600;
+        transition: 0.5s;
+        &:hover{
+            background-color: rgb(2, 70, 2);
+        }
+
+        a {
+            color: white;
+            border: none;
+        }
+    }
+
+    .logout {
+        padding: 10px 15px;
+        border-radius: 10px;
+        background-color: gray;
+        color: white;
+        transition: 0.5s;
+        &:hover {
+            background-color: rgb(212, 8, 8);
+        }
+    }
+}

@@ -1,0 +1,188 @@
+main{
+    #cards{
+        .container{
+            .cards{
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+                flex-wrap: wrap;
+               
+                .card{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    border-radius: 6px;
+                    overflow: hidden;
+                    background-color: white;
+                    &:hover{
+                        img{
+                            transform: scale(1.1);
+                        }
+                    }
+                    .card_image{
+                        width: 300px;
+                        height: 200px;
+                        overflow: hidden;
+                     
+                        img{
+                    transition: 0.5s;
+
+                            object-fit: cover;
+                            width: 100%;
+                            height: 100%;
+                           
+                          
+                        }
+                    }
+                    .card_text{
+                        padding: 20px;
+                       
+                        .card_title{
+                            margin-top: 10px;
+                        }
+                        .card_description{
+                            margin-top: 10px;
+                        }
+                    }
+                    .card_buttons{
+                        padding: 0px 20px;
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                        .detail{
+                            padding: 10px 15px;
+                            background-color: white;
+                            color: #457EE1;
+                            border-radius: 6px;
+                            border: 1px solid #457EE1;
+                            transition: 0.5s;
+                            &:hover  {
+                                background-color: #457EE1;
+                                color: white;
+                                border:1px solid white;
+                               
+                            }
+
+                        }
+                        .delete{
+                            padding: 5px 13px;
+                            border: 1px solid red;
+                            background-color: white;
+                            border-radius: 5px;
+                            transition: 0.5s;
+                            &:hover  {
+                                background-color: red;
+                                border:1px solid white;
+                                i{
+                                    color: white;
+                                }
+                            }
+
+                            i{
+                                color: red;
+                            }
+                        }
+                        .favorite{
+                            padding: 5px 13px;
+                            border: 1px solid red;
+                            background-color: white;
+                            border-radius: 6px;
+                            transition: 0.5s;
+                            &:hover  {
+                                background-color: red;
+                                border:1px solid white;
+                                i{
+                                    color: white;
+                                }
+                            }
+
+                            i{
+                                color: red;
+                            }
+                        }
+                       
+                    }
+                }
+            }
+        }
+    }
+}
+// Detail Cardss=-=-=--==-=
+.detailPage{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.detailCard{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: white;
+    &:hover{
+        img{
+            transform: scale(1.1);
+        }
+    }
+
+    width: 600px;
+    
+    .card_buttons{
+        padding: 20px;
+        .home{
+            color: #457EE1;
+            border: 1px solid #457EE1;
+            padding: 15px 25px;
+            border-radius: 6px;
+            background-color: white;
+            transition: 0.5s;
+            &:hover{
+                background-color: #457EE1;
+                color: white;
+                border: none;
+            }
+        }
+    }
+    .card_text{
+        padding: 20px;
+        .card_description{
+            margin-top: 10px;
+        }
+        .card_title{
+            margin-top: 10px;
+        }
+        .age{
+            margin-top: 10px;
+        }
+        .genre{
+            margin-top: 10px;
+        }
+    }
+    .card_image{
+        overflow: hidden;
+        max-height: 400px;
+        img{
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+            transition: 0.5s;
+        }
+    }
+   
+}
+
+
+.basket{
+    padding: 5px 13px;
+    border: 1px solid #457EE1;
+    background-color: white;
+    border-radius: 6px;
+    transition: 0.5s;
+    &:hover  {
+        background-color: #457EE1;
+        border:1px solid white;
+        i{
+            color: white;
+        }
+    }
+
+    i{
+        color: #457EE1;
+    }
+}
+// MealCard=--==-=-==-=-=-=-=-=-=-
